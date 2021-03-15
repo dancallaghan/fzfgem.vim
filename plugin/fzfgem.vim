@@ -1,1 +1,1 @@
-command! -bang Gems call fzfgem(<bang>0)
+command! -bang Gems call fzfgem#gems(<bang>0)
