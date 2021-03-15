@@ -20,5 +20,5 @@ function! fzfgem#gems(bang)
   call s:check_requirements()
 
   let gems = bundler#project().gems()
-  return fzf#run(fzf#wrap('gems', { 'source': sort(keys(gems)), 'sink': 'Bopen' }, bang))
+  return fzf#run(fzf#wrap('gems', { 'source': sort(keys(gems)), 'sink': 'Bopen' }, a:bang))
 endfunction
