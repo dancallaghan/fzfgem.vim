@@ -28,12 +28,10 @@ Commands
 --------
 
 `:Gems` will open a fzf window with a list of gems defined in the current
-project's Gemfile.
+project's `Gemfile`.
 
 If the command errors, you may not be in a file that is covered by the
-`Gemfile`.
-
-From the [vim-bundler](vim-bundler) README:
+`Gemfile`. From the [vim-bundler](vim-bundler) README:
 > This plugin cares about the current file, not the current working directory. Edit a file that's covered by a Gemfile.
 
 [fzf]: https://github.com/junegunn/fzf
