@@ -21,7 +21,7 @@ Plug 'dancallaghan/fzfgem.vim'
 ### Dependencies
 
 - [fzf](fzf)
-- [fzf.vim](fzf.vim)
+- [fzf.vim](fzf-vim)
 - [vim-bundler](vim-bundler)
 
 Commands
@@ -35,6 +35,6 @@ If the command errors, you may not be in a file that is covered by the
 > This plugin cares about the current file, not the current working directory. Edit a file that's covered by a Gemfile.
 
 [fzf]: https://github.com/junegunn/fzf
-[fzf.vim]: https://github.com/junegunn/fzf.vim
+[fzf-vim]: https://github.com/junegunn/fzf.vim
 [vim-bundler]: https://github.com/tpope/vim-bundler
 [vim-plug]: https://github.com/junegunn/vim-plug
